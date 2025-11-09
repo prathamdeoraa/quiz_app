@@ -1,6 +1,6 @@
 # quiz_app
 
-'''
+"""
 lib/
 ├─ main.dart
 ├─ core/
@@ -19,4 +19,4 @@ lib/
 │ ├─ viewmodels/ # Riverpod ChangeNotifiers/StateNotifiers or plain classes
 │ └─ widgets/ # UI components
 └─ providers.dart # Riverpod providers wiring
-'''
+"""
