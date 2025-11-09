@@ -1,5 +1,7 @@
 # quiz_app
 
+## Floder Structures
+
 ```
 lib/
 ├─ main.dart
@@ -19,4 +21,20 @@ lib/
 │ ├─ viewmodels/ # Riverpod ChangeNotifiers/StateNotifiers or plain classes
 │ └─ widgets/ # UI components
 └─ providers.dart # Riverpod providers wiring
+```
+
+## Packages use:
+  
+```
+dependencies:
+flutter_riverpod
+freezed_annotation # optional, for immutable models
+json_annotation
+http
+
+
+dev_dependencies:
+build_runner
+freezed
+json_serializable
 ```
